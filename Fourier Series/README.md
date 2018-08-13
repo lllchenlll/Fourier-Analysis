@@ -7,7 +7,7 @@
     对一个周期函数来说，其还有包含频率等在内在因素。
     频率表示了周期性变化的快慢。
     	
-<img src="https://latex.codecogs.com/gif.latex?f(x)=a_{0}&plus;\sum_{n=0}^{\infty}(a_{n}\cos\frac{n\pi&space;x}{l}&plus;b_{n}\sin\frac{n\pi&space;x}{l})" title="f(x)=a_{0}+\sum_{n=0}^{\infty}(a_{n}\cos\frac{n\pi x}{l}+b_{n}\sin\frac{n\pi x}{l})" />
+<div align=center><img src="https://latex.codecogs.com/gif.latex?f(x)=a_{0}&plus;\sum_{n=0}^{\infty}(a_{n}\cos\frac{n\pi&space;x}{l}&plus;b_{n}\sin\frac{n\pi&space;x}{l})" title="f(x)=a_{0}+\sum_{n=0}^{\infty}(a_{n}\cos\frac{n\pi x}{l}+b_{n}\sin\frac{n\pi x}{l})" /></div>
 
     参考网址：
     1. [到底神马是傅里叶级数！](https://blog.csdn.net/Edin_BlackPoint/article/details/53581902)
