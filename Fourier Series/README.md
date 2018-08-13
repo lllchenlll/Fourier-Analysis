@@ -19,4 +19,4 @@
 <div align=center><img src="https://latex.codecogs.com/gif.latex?\left&space;\langle&space;u,v&space;\right&space;\rangle:=\int_{a}^{b}u(x)\bar{v}(x)dx" title="\left \langle u,v \right \rangle:=\int_{a}^{b}u(x)\bar{v}(x)dx" /></div>
 
     参考网址：
-    1. [到底神马是傅里叶级数！](https://blog.csdn.net/Edin_BlackPoint/article/details/53581902)
+1. [到底神马是傅里叶级数！](https://blog.csdn.net/Edin_BlackPoint/article/details/53581902)
