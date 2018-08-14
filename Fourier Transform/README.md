@@ -4,7 +4,7 @@
     PS1：可以将时域信号理解为周期无限大的函数
     PS2：正是由于频域中的谱变得连续，傅里叶级数中的求和变为了积分
     
-<div align=center><img width="250" height="300" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Fourier_unit_pulse.svg/800px-Fourier_unit_pulse.svg.png"/></div>
+<div align=center><img width="310" height="250" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Fourier_unit_pulse.svg/800px-Fourier_unit_pulse.svg.png"/></div>
 
     如果将函数的观察空间拓展到虚数空间，我们就可以发现正弦波的叠加是e^{it}在实数空间的投影。
     假设有一条是实数轴，乘以-1表示实数轴反向，那么乘以i（i^{2}=-1）则表示实数轴旋转90度成为虚数轴。
