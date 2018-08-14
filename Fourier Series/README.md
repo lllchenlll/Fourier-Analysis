@@ -29,3 +29,4 @@
 参考网址：
 1. [到底神马是傅里叶级数！](https://blog.csdn.net/Edin_BlackPoint/article/details/53581902)
 2. [傅里叶级数的理解与简单推导](https://blog.csdn.net/constantin_ouc/article/details/78881709)
+3. [傅里叶分析之掐死教程（完整版）](https://zhuanlan.zhihu.com/p/19763358)
