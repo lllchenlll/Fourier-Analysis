@@ -5,7 +5,7 @@
     PS2：泰勒函数(需要满足n阶导数必须存在)同样是对函数的展开（指数展开），其可以观察函数不同阶的导数来判断函数的变化程度。
     PS3：三角函数具有微积分不变性（形状不变，只改变幅值和相位） 
 
-![傅里叶级数]（https://en.wikipedia.org/wiki/File:Fourier_series_and_transform.gif）
+![fourier](https://en.wikipedia.org/wiki/File:Fourier_series_and_transform.gif)
 
     对一个周期函数来说，其还有包含频率等在内在因素。
     频率表示了周期性变化的快慢。
