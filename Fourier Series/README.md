@@ -2,7 +2,8 @@
 
     什么是傅里叶级数（三角级数）： 任何 '周期函数' 均可用正弦及余弦函数构成的无穷级数来表示。
     PS1：基函数为sin\cos是因为其相互正交，且是二阶偏微分方程的的本征解。
-    PS2：泰勒函数同样是对函数的展开（指数展开），其可以观察函数不同阶的导数来判断函数的变化程度。
+    PS2：泰勒函数(需要满足n阶导数必须存在)同样是对函数的展开（指数展开），其可以观察函数不同阶的导数来判断函数的变化程度。
+    PS3：三角函数具有微积分不变性（形状不变，只改变幅值和相位） 
 
     对一个周期函数来说，其还有包含频率等在内在因素。
     频率表示了周期性变化的快慢。
@@ -18,11 +19,13 @@
     
 <div align=center><img src="https://latex.codecogs.com/gif.latex?\left&space;\langle&space;u,v&space;\right&space;\rangle:=\int_{a}^{b}u(x)\bar{v}(x)dx" title="\left \langle u,v \right \rangle:=\int_{a}^{b}u(x)\bar{v}(x)dx" /></div>
 
-    每个分量的系数计算来源于f(x)在各个分量下做投影的结果，即相乘做积分（各个分量需用完备正交基表示，即两两相乘积分为0，自身乘方积分为1）
+    每个分量的系数计算来源于f(x)在各个分量下做投影的结果，即相乘做积分
+    PS: 各个分量需用完备正交基表示，即两两相乘积分(一个周期内)为0，自身乘方积分为1
     
 <div align=center><img src="https://latex.codecogs.com/gif.latex?a_{0}=\frac{\left&space;\langle&space;f,1&space;\right&space;\rangle}{\left&space;\langle&space;1,1&space;\right&space;\rangle}=\frac{\int_{-l}^{l}f(x)dx}{\int_{-l}^{l}dx}=\frac{\int_{-l}^{l}f(x)dx}{2l}" title="a_{0}=\frac{\left \langle f,1 \right \rangle}{\left \langle 1,1 \right \rangle}=\frac{\int_{-l}^{l}f(x)dx}{\int_{-l}^{l}dx}=\frac{\int_{-l}^{l}f(x)dx}{2l}" /></div>
 <div align=center><img src="https://latex.codecogs.com/gif.latex?a_{n}=\frac{\left&space;\langle&space;f,\cos\frac{n\pi&space;x}{l}&space;\right&space;\rangle}{\left&space;\langle&space;\cos\frac{n\pi&space;x}{l},\cos\frac{n\pi&space;x}{l}&space;\right&space;\rangle}=\frac{\int_{-l}^{l}f(x)\cos\frac{n\pi&space;x}{l}dx}{\int_{-l}^{l}\cos^{2}\frac{n\pi&space;x}{l}dx}=\frac{\int_{-l}^{l}f(x)\cos\frac{n\pi&space;x}{l}dx}{l}" title="a_{n}=\frac{\left \langle f,\cos\frac{n\pi x}{l} \right \rangle}{\left \langle \cos\frac{n\pi x}{l},\cos\frac{n\pi x}{l} \right \rangle}=\frac{\int_{-l}^{l}f(x)\cos\frac{n\pi x}{l}dx}{\int_{-l}^{l}\cos^{2}\frac{n\pi x}{l}dx}=\frac{\int_{-l}^{l}f(x)\cos\frac{n\pi x}{l}dx}{l}" /></div>
-<div align=center>b_{n}=\frac{\left \langle f,\sin\frac{n\pi x}{l} \right \rangle}{\left \langle \sin\frac{n\pi x}{l},\sin\frac{n\pi x}{l} \right \rangle}=\frac{\int_{-l}^{l}f(x)\sin\frac{n\pi x}{l}dx}{\int_{-l}^{l}\sin^{2}\frac{n\pi x}{l}dx}=\frac{\int_{-l}^{l}f(x)\sin\frac{n\pi x}{l}dx}{l}</div>
+<div align=center><img src="https://latex.codecogs.com/gif.latex?b_{n}=\frac{\left&space;\langle&space;f,\sin\frac{n\pi&space;x}{l}&space;\right&space;\rangle}{\left&space;\langle&space;\sin\frac{n\pi&space;x}{l},\sin\frac{n\pi&space;x}{l}&space;\right&space;\rangle}=\frac{\int_{-l}^{l}f(x)\sin\frac{n\pi&space;x}{l}dx}{\int_{-l}^{l}\sin^{2}\frac{n\pi&space;x}{l}dx}=\frac{\int_{-l}^{l}f(x)\sin\frac{n\pi&space;x}{l}dx}{l}" title="b_{n}=\frac{\left \langle f,\sin\frac{n\pi x}{l} \right \rangle}{\left \langle \sin\frac{n\pi x}{l},\sin\frac{n\pi x}{l} \right \rangle}=\frac{\int_{-l}^{l}f(x)\sin\frac{n\pi x}{l}dx}{\int_{-l}^{l}\sin^{2}\frac{n\pi x}{l}dx}=\frac{\int_{-l}^{l}f(x)\sin\frac{n\pi x}{l}dx}{l}" /></div>
 
 参考网址：
 1. [到底神马是傅里叶级数！](https://blog.csdn.net/Edin_BlackPoint/article/details/53581902)
+2. [傅里叶级数的理解与简单推导](https://blog.csdn.net/constantin_ouc/article/details/78881709)
