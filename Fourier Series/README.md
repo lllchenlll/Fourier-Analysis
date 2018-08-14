@@ -18,5 +18,11 @@
     
 <div align=center><img src="https://latex.codecogs.com/gif.latex?\left&space;\langle&space;u,v&space;\right&space;\rangle:=\int_{a}^{b}u(x)\bar{v}(x)dx" title="\left \langle u,v \right \rangle:=\int_{a}^{b}u(x)\bar{v}(x)dx" /></div>
 
+    每个分量的系数计算来源于f(x)在各个分量下做投影的结果，即相乘做积分（各个分量需用完备正交基表示，即两两相乘积分为0，自身乘方积分为1）
+    
+<div align=center><img src="https://latex.codecogs.com/gif.latex?a_{0}=\frac{\left&space;\langle&space;f,1&space;\right&space;\rangle}{\left&space;\langle&space;1,1&space;\right&space;\rangle}=\frac{\int_{-l}^{l}f(x)dx}{\int_{-l}^{l}dx}=\frac{\int_{-l}^{l}f(x)dx}{2l}" title="a_{0}=\frac{\left \langle f,1 \right \rangle}{\left \langle 1,1 \right \rangle}=\frac{\int_{-l}^{l}f(x)dx}{\int_{-l}^{l}dx}=\frac{\int_{-l}^{l}f(x)dx}{2l}" /></div>
+<div align=center><img src="https://latex.codecogs.com/gif.latex?a_{n}=\frac{\left&space;\langle&space;f,\cos\frac{n\pi&space;x}{l}&space;\right&space;\rangle}{\left&space;\langle&space;\cos\frac{n\pi&space;x}{l},\cos\frac{n\pi&space;x}{l}&space;\right&space;\rangle}=\frac{\int_{-l}^{l}f(x)\cos\frac{n\pi&space;x}{l}dx}{\int_{-l}^{l}\cos^{2}\frac{n\pi&space;x}{l}dx}=\frac{\int_{-l}^{l}f(x)\cos\frac{n\pi&space;x}{l}dx}{l}" title="a_{n}=\frac{\left \langle f,\cos\frac{n\pi x}{l} \right \rangle}{\left \langle \cos\frac{n\pi x}{l},\cos\frac{n\pi x}{l} \right \rangle}=\frac{\int_{-l}^{l}f(x)\cos\frac{n\pi x}{l}dx}{\int_{-l}^{l}\cos^{2}\frac{n\pi x}{l}dx}=\frac{\int_{-l}^{l}f(x)\cos\frac{n\pi x}{l}dx}{l}" /></div>
+<div align=center>b_{n}=\frac{\left \langle f,\sin\frac{n\pi x}{l} \right \rangle}{\left \langle \sin\frac{n\pi x}{l},\sin\frac{n\pi x}{l} \right \rangle}=\frac{\int_{-l}^{l}f(x)\sin\frac{n\pi x}{l}dx}{\int_{-l}^{l}\sin^{2}\frac{n\pi x}{l}dx}=\frac{\int_{-l}^{l}f(x)\sin\frac{n\pi x}{l}dx}{l}</div>
+
 参考网址：
 1. [到底神马是傅里叶级数！](https://blog.csdn.net/Edin_BlackPoint/article/details/53581902)
