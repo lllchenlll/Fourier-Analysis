@@ -23,4 +23,5 @@
 
 <div align=center><img src="https://img-blog.csdn.net/20180615210208158?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3RoZWNlbnRyeQ==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"/></div>
 
-    一个m*n的二维图像f(x,y)，先按行队列变量y做一次长度为n的一维离散傅里叶变换，再将计算结果按列向对变量x做一次长度为m的傅里叶变换就可以得到该图像的傅里叶变换结果。
+    一个m*n的二维图像f(x,y)，先按行队列变量y做一次长度为n的一维离散傅里叶变换。
+    再将计算结果按列向对变量x做一次长度为m的傅里叶变换就可以得到该图像的傅里叶变换结果。
